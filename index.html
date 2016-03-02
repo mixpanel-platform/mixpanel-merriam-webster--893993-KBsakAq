@@ -61,16 +61,16 @@
         $.when(appInstall).done(function(appInstall) {
           var appInstallData = appInstall.values()
           
-          $('<span>' + "App Install Event by Campaign Source" + '</span>').css({
-            'background': 'white',
-            'border': '1px solid #7a8195',
-            'border-radius': '5px',
-            'color': '#7a8195',
-            'display': 'inline-block',
-            'margin-bottom': '20px',
-            'margin-top': '10px',
-            'padding': '10px'
-          }).appendTo('body');
+          // $('<span>' + "App Install Event by Campaign Source" + '</span>').css({
+          //   'background': 'white',
+          //   'border': '1px solid #7a8195',
+          //   'border-radius': '5px',
+          //   'color': '#7a8195',
+          //   'display': 'inline-block',
+          //   'margin-bottom': '20px',
+          //   'margin-top': '10px',
+          //   'padding': '10px'
+          // }).appendTo('body');
           
           $('<div class="first"></div>').css({'width':'100%', 'float':'left'}).appendTo('body').MPChart({
             chartType: 'line',
