@@ -112,7 +112,7 @@
         $.when(data).done(function(dataExtracted) {
           var campaigns = dataExtracted["results"]
           
-          for (i = 0; i < 6; i++) {
+          for (i = 0; i < 4; i++) {
             var campaign = _.keys(campaigns)[i]  
             revenueData[campaign] = {}
             delete campaigns[campaign]['$overall']
